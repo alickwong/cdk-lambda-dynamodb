@@ -1,0 +1,26 @@
+{
+  "name": "cdk2",
+  "version": "0.1.0",
+  "scripts": {
+    "cdk_deploy_dev_hitcounter": "cdk deploy -c envname=ECSFargateStack3 --hotswap HitCounterStack",
+    "cdk_synthesize": "cdk synthesize"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node": "10.17.27",
+    "jest": "^26.6.3",
+    "reflect-metadata": "^0.1.13",
+    "ts-jest": "^26.2.0",
+    "ts-node": "^9.0.0",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.131.0",
+    "@types/aws-lambda": "^8.10.101",
+    "aws-cdk-lib": "^2.21.0",
+    "aws-lambda": "^1.0.7",
+    "constructs": "^10.0.121",
+    "dotenv": "^16.0.0",
+    "source-map-support": "^0.5.16"
+  }
+}
